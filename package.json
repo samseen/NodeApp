@@ -12,5 +12,8 @@
     "website"
   ],
   "author": "Samson Akanbi",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
 }
