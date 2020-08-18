@@ -14,6 +14,7 @@
   "author": "Samson Akanbi",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
     "bootstrap": "^4.5.2",
     "sass": "^1.26.10"
   }
