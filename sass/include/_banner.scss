@@ -21,8 +21,16 @@
                 padding: .4rem 1.8rem;
                 &:hover {
                     background: white !important;
+                    >span {
+                        color: $dark;
+                    }
                 }
             }
         }
+    }
+
+    @media screen and (max-width:992px){
+        padding-top: 10rem;
+        height: 700px;
     }
 }
