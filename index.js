@@ -23,6 +23,7 @@ $(document).ready(function() {
         margin:40,
         dots: false,
         nav: true,
+        navText:["<span><i class='fas fa-arrow-left'></i> Previous</span>", "<span>Next <i class='fas fa-arrow-right'></i></span>"],
         responsive: {
             0: {
                 items: 1
