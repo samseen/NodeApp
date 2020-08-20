@@ -25,5 +25,26 @@
                 }
             }
         }
+
+        .owl-nav {
+            margin-top: 2rem;
+            button {
+                &:focus, &:hover {
+                    outline: none;
+                    box-shadow: none;
+                    background-color: transparent;
+                }
+            }
+
+            button span {
+                background-color: $light;
+                padding: .4rem 3rem;
+                border-radius: 3rem;
+                &:hover {
+                    background-color: $dark;
+                }
+            }
+        }
+
     }
 }
