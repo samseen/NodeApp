@@ -2,6 +2,8 @@
 $(document).ready(function() {
     // Owl Carousel Library
     $('#tech .owl-carousel').owlCarousel({
-        margin:40
+        margin:40,
+        dots: false,
+        nav: true
     })
 });
