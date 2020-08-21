@@ -22,6 +22,7 @@ $(document).ready(function() {
     $('#security .owl-carousel').owlCarousel({
         margin:40,
         dots: false,
+        loop: true,
         nav: true,
         navText:["<span><i class='fas fa-arrow-left'></i> Previous</span>", "<span>Next <i class='fas fa-arrow-right'></i></span>"],
         responsive: {
