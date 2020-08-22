@@ -44,16 +44,16 @@ $(document).ready(function() {
         dots: false,
         loop: true,
         nav: true,
-        navText:["<span><i class='fas fa-arrow-left'></i> Previous</span>", "<span>Next <i class='fas fa-arrow-right'></i></span>"],
+        navText:["<span><i class='fas fa-arrow-left'></i></span>", "<span><i class='fas fa-arrow-right'></i></span>"],
         responsive: {
             0: {
                 items: 1
             },
             600: {
-                items: 2
+                items: 3
             },
             1000: {
-                items: 3
+                items: 5
             }
         }
     })
