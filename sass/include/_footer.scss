@@ -1,0 +1,19 @@
+/*
+    FOOTER SECTION
+*/
+
+#footer {
+    padding: 3rem 0;
+
+    .company {
+        .d-flex > a {
+            text-decoration: none;
+            color: $dark;
+            font-size: .9rem;
+            margin: .3rem 0;
+            &:hover {
+                color: $purple;
+            }
+        }
+    }
+}
